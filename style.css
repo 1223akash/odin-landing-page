@@ -14,12 +14,6 @@ body {
   background-color: #fff;
 }
 
-body {
-  display: flex;
-  flex-direction: column;
-  flex: 1;
-}
-
 /* Header */
 .header {
   height: 64px;
@@ -90,7 +84,6 @@ button {
   font-weight: 500;
   border: none;
   border-radius: 8px;
-  cursor: pointer;
   padding: 8px 40px;
   margin-top: auto;
 }
