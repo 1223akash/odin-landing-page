@@ -99,6 +99,7 @@ button {
   align-items: center;
   margin-left: 24px;
   /* border: 2px solid blue; */
+  border-radius: 16px;
 }
 
 /* Second section */
@@ -138,8 +139,15 @@ button {
 .info .card {
   width: 180px;
   height: 180px;
-  border: 5px solid #3882f6;
+  /* border: 5px solid #3882f6; */
   border-radius: 16px;
+  overflow: hidden;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .info .text {
@@ -216,7 +224,6 @@ button {
   height: 64px;
   background-color: #1f2937;
   color: #e5e7eb;
-  font-size: 18px;
   display: flex;
   justify-content: center;
   align-items: center;
